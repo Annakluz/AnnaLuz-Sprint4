@@ -89,6 +89,8 @@
 .contenido3{
     background-image: url(../img/conductor.png);
     height: 48vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
     
 }
 
@@ -111,8 +113,9 @@
     margin-top:4vh;
 }
 
-.rectTarifas{
-    
+.recTarifas{
+    margin-left: 5vw;
+    margin-top: 5vh;
 }
 
 .inputsLab{
@@ -140,6 +143,22 @@
 .circulo{
     margin-top: 7vh
 }
+
+.rectMap{
+    text-align: center;
+    border: white solid .3vh;
+    padding: 3vh;
+}
+
+.imgAvion{
+    width: 100%;
+}
+
+.boto{
+    margin-left: 10.5vw;
+    margin-top: 3vh;
+}
+
 
 
 
