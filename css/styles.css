@@ -85,6 +85,18 @@
     border-top: white solid .3vh;
 }
 
+.contenido3{
+    background-image: url(../img/conductor.png);
+    height: 48vh;
+}
+
+.recCuandoquieras{
+    padding-bottom: 15.5vh;
+    padding-top: 15.5vh;
+    
+
+}
+
 
 
 
