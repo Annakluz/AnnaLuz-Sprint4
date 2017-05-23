@@ -3,28 +3,103 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Document</title>
 </head>
 
 <body>
     <div class="lab-ContenedorGral">
-        <nav class="lab-navbar">
-
+        <nav class="lab-navbar navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">
+                        <img alt="Brand" src="img/logoForma.png">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class=""><a href="#">Viaja<span class="sr-only">(current)</span></a></li>
+                        <li><a href="#">Conduce</a></li>
+                        <li><a href="#">Inicia Sesión</a></li>
+                    </ul>
+                </div>
+                </div>
         </nav>
+        
+        <!--AQUI COMIENZA EL CONTENIDO!!!!-->
+        
+        
         <div class="lab-sinNav">
             <div class="navfix"></div>
-            <section class="contenido">
-                <div class="recRegistro"></div>
+            <section class="contenido1 ">
+               <div class="col-md-7"></div>
+                <div class="recRegistro col-md-5">
+                   <div class="row">
+                    <h3 class="titulo">Disfruta del viaje</h3>
+                    </div>
+                    <div class="row">
+                    <h3 class="titulo">Eres dueño de tu tiempo</h3>
+                    </div>
+                    <div class="row">
+                    <p class="text registrotext">Viaja con <img class="logoblanco" src="img/logoBlanco.png" alt=""></p>
+                    </div>
+                    <!--Cambiar al logo-->
+                    <div>
+                        <div class="row">
+                            <button class="boton btn btn-default">Regístrate</button>
+                        </div>
+                        <div class="row">
+                           <div class="col-md-4 borde"></div>
+                           <div class="col-md-4 ">
+                            <p class="texto centrar">o bien</p>
+                            </div>
+                            <div class="col-md-4 borde"></div>
+                        </div>
+                        <div></div>
+                    </div>
+                    <div class="row">
+                    <button class="boton btn btn-default">Conviérte en conductor</button>
+                    </div>
+                </div>
+            </section>
+            
+            <!--COMIENZA LA SEGUNDA SECCION!!!-->
+            
+            <section class="contenido2">
+                <div class="recDescarga">
+                    <div class="celImg">
+                        <img src="" alt="">
+                    </div>
+                    <div class="texto">
+                        <h2 class="titulo">Descarga la Nueva App</h2>
+                        <p class="texto">La versión actualizada de labcar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
+                        <p class="text">Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente a dónde ir.</p>
+                    </div>
+                </div>
             </section>
             <section class="contenido">
-                <div class="recDescarga"></div>
+                <div class="recCuandoquieras">
+                    <h2 class="titulo">Conduce cuando quieras</h2>
+                    <p class="texto">LabCar es una opción flexible para alcanzar tus metas financieras</p>
+                    <button class="boton btn btn-default">Conviértete en conductor </button>
+                </div>
             </section>
             <section class="contenido">
-                <div class="recCuandoquieras"></div>
-            </section>
-            <section class="contenido">
-                <div class="recTarifas"></div>
-                <div class="rectMap"></div>
+                <div class="recTarifas">
+                    <h2 class="titulo">Tarifas</h2>
+                    <p class="texto">Consulta las tarifas LabCar aquí</p>
+                    <form action="">
+                        <input type="text" placeholder="Ingrese su punto de partida">
+                        <input type="text" placeholder="Ingrese su destino">
+                        <button class="btn btn-default">¡Trazar Ruta!</button>
+                    </form>
+                </div>
+                <div class="rectMap">
+                    <img src="" alt="">
+                </div>
             </section>
             <footer class="contenedorFoot">
                 <div class="titulo"></div>
@@ -60,8 +135,8 @@
             </footer>
 
         </div>
-    </div>
-
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </body>
 
 </html>

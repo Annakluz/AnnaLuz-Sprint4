@@ -1,0 +1,58 @@
+
+.lab-navbar{
+    padding: 3vh;
+
+}
+
+.lab-sinNav{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 14vh auto;
+}
+
+.contenido1{
+    height: 81vh;
+    background-image: url(../img/taxi2.png);
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+
+.recRegistro{
+    background-color: #FCB425;
+    padding-left: 4vw;
+    padding-bottom: 3vw;
+    padding-top: 3vw;
+    margin-top: 20vh;
+    
+}
+
+.titulo{
+    padding: 0;
+    margin: 0;
+}
+
+.registrotext{
+    margin-top: 2vw;
+    
+}
+
+.borde{
+    height: 3vh;
+    border-bottom: white solid .3vh;
+}
+
+.texto{
+    text-align: center;
+}
+
+.logoblanco{
+    width: 6vw;
+    height: 2.5vh;
+}
+
+
+
+
+
+
+
