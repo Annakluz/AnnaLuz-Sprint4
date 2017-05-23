@@ -41,7 +41,7 @@
     border-bottom: white solid .3vh;
 }
 
-.texto{
+.centrar{
     text-align: center;
 }
 
@@ -49,6 +49,45 @@
     width: 6vw;
     height: 2.5vh;
 }
+
+.recDescarga{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    
+    
+    
+}
+
+.imgCelu{
+    width: 70%;
+}
+
+.celImg{
+    display: grid;
+    border-top: white solid .3vh;
+    border-bottom: white solid .3vh;
+    justify-items: center;
+    padding: 2vh;
+    
+}
+
+.textoSeccion2{
+    display: grid;
+    justify-items: space-around
+    font-size: 18px;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-right: 3vh;
+    border-bottom: white solid .3vh;
+    border-right: white solid .3vh;
+    border-top: white solid .3vh;
+}
+
+
+
+
 
 
 
