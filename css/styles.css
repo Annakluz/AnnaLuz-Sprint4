@@ -52,7 +52,7 @@
 
 .recDescarga{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 4fr 4fr 2fr;
     padding-top: 3vh;
     padding-bottom: 3vh;
     
@@ -71,11 +71,12 @@
     justify-items: center;
     padding: 2vh;
     
+    
 }
 
 .textoSeccion2{
     display: grid;
-    justify-items: space-around
+    justify-items: space-around;
     font-size: 18px;
     padding-top: 3vh;
     padding-bottom: 3vh;
@@ -88,14 +89,61 @@
 .contenido3{
     background-image: url(../img/conductor.png);
     height: 48vh;
+    
 }
 
 .recCuandoquieras{
     padding-bottom: 15.5vh;
     padding-top: 15.5vh;
+    background-color: black;
+    opacity: .7;
+    color: white;
     
 
 }
+
+.amarilloboton{
+    background-color: #FCB425;
+    color:white;
+}
+
+.contenido4{
+    margin-top:4vh;
+}
+
+.rectTarifas{
+    
+}
+
+.inputsLab{
+    margin-top: 7vh;
+    border-radius: 1vw;
+    background-color: #FCB425;
+    border: white solid .3vh;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    width: 30vw;
+    height: 5vh;
+        
+}
+
+.inputs{
+    margin-left:  1vw;
+}
+
+.avion{
+    margin-top: 8vh;
+
+}
+
+.circulo{
+    margin-top: 7vh
+}
+
+
+
+
 
 
 
