@@ -184,11 +184,23 @@
 
 .logosApp{
     display: grid;
+    grid-template-rows: auto;
     align-items: flex-end;
+    padding-bottom: 3vh;
 
 
 }
 
 .logosApp>img{
     width: 50%;
+}
+
+.CopyRight{
+    display: grid;
+    width: 90vw;
+    height: 10vh;
+    border-top: white solid .3vh;
+    align-items: flex-end;
+    font-size: 12px;
+    
 }
